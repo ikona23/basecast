@@ -14,6 +14,8 @@ function time() {
   return hours + minutes + seconds;
 }
 
+// Hellogithub
+
 function output(time) {
   var color = '#' + time;
   document.body.bgColor = color;
