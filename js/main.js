@@ -1,3 +1,4 @@
+
 function time() {
   var date = new Date();
   var hours = date.getHours();
@@ -13,8 +14,6 @@ function time() {
 
   return hours + minutes + seconds;
 }
-
-// Hellogithub
 
 function output(time) {
   var color = '#' + time;
@@ -32,7 +31,7 @@ function startClick(callback) {
   });
 }
 
-function stopClick(callback, name) {
+function stopClick(callback) {
   document.body.addEventListener('click', function(event) {
     callback(name);
   });
